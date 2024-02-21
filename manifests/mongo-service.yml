@@ -1,0 +1,17 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: vizion-staging-mongo-service
+  namespace: vizion-staging
+  # labels:
+  #   app: vizion-mongo
+spec:
+  selector:
+    app: vizion-mongo
+  clusterIP: None # To create a headless service
+  ports:
+    - port: 27017
+      targetPort: 27017
+      name: "27017"
+

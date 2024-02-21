@@ -1,0 +1,18 @@
+.header {
+  background-color: white;
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  height: 100%;
+}
+
+.nav-link {
+  margin-right: 10px;
+  color: #1A2B41;
+  text-decoration: none;
+  line-height: 35px;
+}

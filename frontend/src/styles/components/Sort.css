@@ -1,0 +1,60 @@
+.dropdown-menu {
+    margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .dropdown-button {
+    float: left; /* This will keep the button to the left of the menu */
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #f5f5f5;
+    border-color: #b3b3b3;
+  }
+
+  .dropdown-options {
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: block; /* This will keep the menu below the button */
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    left: 300px;
+    top: 75px;
+  }
+
+  .dropdown-option {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block; /* This will keep the menu below the button */
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f5f5f5;
+  }
+
+  .selected-option {
+    position: fixed;
+    top: 10%; /* This will position the menu below the button */
+    float: left; /* This will keep the button to the left of the menu */
+    font-size: 92%;
+    overflow: hidden;
+    max-height: 100vh;
+  }
+  
